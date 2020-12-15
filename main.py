@@ -90,7 +90,7 @@ while True:
                 pacman.x = 1
                 pacman.y = 1
         app.putText('Vidas restantes: '+str(pacman.lifes),60,(255,255,255),maze.screen,800,200)
-        app.putText(str(pacman.points),50,(255,255,255),maze.screen,800,600)
+        app.putText(str(pacman.points),80,(255,255,255),maze.screen,900,500)
 
         
         if pacman.lifes == 0:
