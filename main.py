@@ -99,18 +99,14 @@ while True:
    
         if app.upPressed(): 
             lastPressed = Pacman.UP
-            pacman.move(Pacman.UP)
 
         if app.downPressed(): 
             lastPressed = Pacman.DOWN
-            pacman.move(Pacman.DOWN)
 
         if app.leftPressed(): 
-            pacman.move(Pacman.LEFT)
             lastPressed = Pacman.LEFT
 
         if app.rightPressed(): 
-            pacman.move(Pacman.RIGHT)
             lastPressed = Pacman.RIGHT
         
         if pacman.points >= 400 and first:
