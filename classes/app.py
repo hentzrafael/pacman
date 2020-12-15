@@ -16,13 +16,7 @@ class App(object):
         if key[K_SPACE]==1:
             return True
         return False
-
-    def tabPressed(self):
-        key = pygame.key.get_pressed()
-        if key[K_TAB]==1:
-            return True
-        return False
-    
+  
     def upPressed(self):
         key = pygame.key.get_pressed()
         if key[K_UP]==1:

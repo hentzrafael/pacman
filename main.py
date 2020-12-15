@@ -96,9 +96,6 @@ while True:
         if pacman.lifes == 0:
             gameScreen = False
             restartScreen = True
-
-        if app.tabPressed():
-            pacman.points = 2140
    
         if app.upPressed(): 
             lastPressed = Pacman.UP
